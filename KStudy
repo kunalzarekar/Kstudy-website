@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KStudy - STEM Robotics</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-blue-900 text-white p-6 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">KStudy</h1>
+      <nav>
+        <ul class="flex gap-6">
+          <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+          <li><a href="#methodology" class="hover:text-yellow-400">RAID</a></li>
+          <li><a href="#programs" class="hover:text-yellow-400">Programs</a></li>
+          <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text-center py-20 bg-white">
+    <h2 class="text-4xl font-bold mb-4">Empowering Young Innovators Through STEM & Robotics</h2>
+    <p class="text-lg max-w-2xl mx-auto">KStudy is a global STEM Robotics organization from India nurturing students from Grade 1 to Engineering using our unique RAID methodology – Research, Analyse, Innovate, Develop.</p>
+  </section>
+
+  <section id="about" class="py-16 px-4 bg-gray-100">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">Who We Are</h3>
+      <p>KStudy connects global learners with cutting-edge technology education. We train students in STEM, electronics, programming, AI, and robotics, and guide them to compete in national and international competitions.</p>
+    </div>
+  </section>
+
+  <section id="methodology" class="py-16 px-4 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">RAID Methodology</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div><h4 class="text-xl font-bold">Research</h4><p>Students explore real-world problems and investigate solutions.</p></div>
+        <div><h4 class="text-xl font-bold">Analyse</h4><p>They break down problems and examine data and patterns.</p></div>
+        <div><h4 class="text-xl font-bold">Innovate</h4><p>We encourage original thinking and creative problem-solving.</p></div>
+        <div><h4 class="text-xl font-bold">Develop</h4><p>Students build, prototype, and refine their solutions.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="programs" class="py-16 px-4 bg-gray-100">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-3xl font-semibold text-center mb-6">Programs We Offer</h3>
+      <ul class="grid md:grid-cols-3 gap-6">
+        <li class="bg-white p-6 rounded-xl shadow-md">
+          <h4 class="text-xl font-bold mb-2">Grade 1-5</h4>
+          <p>STEM toys, basic robotics, logic building.</p>
+        </li>
+        <li class="bg-white p-6 rounded-xl shadow-md">
+          <h4 class="text-xl font-bold mb-2">Grade 6-10</h4>
+          <p>Arduino, Scratch, AI for kids, electronics, competitions.</p>
+        </li>
+        <li class="bg-white p-6 rounded-xl shadow-md">
+          <h4 class="text-xl font-bold mb-2">Grade 11 to Engineering</h4>
+          <p>Python, IoT, ML, deep tech projects, research, hackathons.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 px-4 bg-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">Get in Touch</h3>
+      <p>Want to collaborate or enroll your child? Reach us at:</p>
+      <p class="mt-4">📧 info@kstudy.org | 📞 +91-XXXXXXXXXX</p>
+    </div>
+  </section>
+
+  <footer class="bg-blue-900 text-white py-6 text-center">
+    <p>&copy; 2025 KStudy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
